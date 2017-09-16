@@ -45,7 +45,7 @@ sudo apt-get install mysql-server;
 $mysql -u root -p;
 mysql>CREATE DATABASE wordpress;
 mysql>GRANT ALL PRIVILEGES ON wordpress.*TO "wordpress"@"localhost"IDENTIFIED BY "123456";
-mysql>FLUSH PRIIVILEGES;
+mysql>FLUSH PRIVILEGES;
 mysql>EXIT
 (3)打开 /var/www/html目录，将wp-config-sample.php文件名改为wp-config.php并修改：
 sudo cd /var/www/html;
